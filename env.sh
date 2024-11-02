@@ -1,4 +1,3 @@
-#!/bin/bash
 
 # Update and upgrade package lists
 echo "Updating and upgrading packages..."
