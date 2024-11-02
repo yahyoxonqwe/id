@@ -14,7 +14,8 @@ det_model = "/home/airi/Mylove/id/demo/models/det_500m.onnx"
 rec_model = "/home/airi/Mylove/id/demo/models/w600k_mbf.onnx"
 eye_classifier = cv2.CascadeClassifier('/home/airi/Mylove/id/demo/models/haarcascade_eye.xml')
 
-# path = "rtsp://admin:1234567q@10.10.0.108:74/h265/ch1/main/av_stream"
+#path = "rtsp://admin:jetsonnano1@10.10.0.126:75/h265/ch1/main/av_stream"
+path = os.getenv('RTSP_STREAM_URL')
 path = "/home/airi/Mylove/id/enter.mp4"
 
 detector = SCRFD(det_model)
